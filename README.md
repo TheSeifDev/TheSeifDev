@@ -9,7 +9,7 @@ Hey there! I'm **Seif**, a passionate Front-End Developer from Alexandria, Egypt
 - **Tools & Platforms:** VS Code, Git, Upwork
 
 ## 🌐 Projects
-- **🌍 [Nabd Masr](https://github.com/seif/nabd-masr)** - A blood donation platform to connect donors and patients in Egypt.
+- **🌍 [Nabd Masr](https://nabdmasr.vercel.app)** - A blood donation platform to connect donors and patients in Egypt.
 - **⚡ Personal Portfolio** - Currently building my portfolio using **Next.js** and **React**.
 
 ## 🎯 What I'm Up To
