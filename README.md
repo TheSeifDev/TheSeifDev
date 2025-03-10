@@ -18,9 +18,7 @@ Hey there! I'm **Seif**, a passionate Front-End Developer from Alexandria, Egypt
 - Always eager to learn new technologies and take on challenges!
 
 ## 📫 Get in Touch
-- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- **GitHub:** [Your GitHub Profile](https://github.com/seif)
-- **Email:** your.email@example.com
+- **Email:** seif.tanjiro@gmail.com
 
 Thanks for stopping by! Feel free to check out my projects and connect with me. Let's build something amazing together! 💪
 
