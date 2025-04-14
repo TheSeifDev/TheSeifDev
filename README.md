@@ -1,10 +1,10 @@
-# 💻 Seif - Front-End Developer & Tech Enthusiast
+# 💻 Seif - FullStack Developer & Tech Enthusiast
 
 Hey there! I'm **Seif**, a passionate Front-End Developer from Alexandria, Egypt. I'm 17 years old and currently studying Engineering. I love building modern, responsive, and dynamic web applications using the latest technologies.
 
 ## 🚀 Skills
 - **Languages:** HTML, CSS, JavaScript, PHP
-- **Frameworks/Libraries:** React.js, Next.js, Tailwind CSS, Bootstrap
+- **Frameworks/Libraries:** React.js, Next.js, Laravel, Tailwind CSS, Bootstrap
 - **Databases:** MySQL
 - **Tools & Platforms:** VS Code, Git, Upwork
 
