@@ -1,12 +1,13 @@
 # 💻 Seif - Full-Stack Developer & Tech Enthusiast
 
-Hey there! I'm **Seif**, a passionate Front-End Developer from Alexandria, Egypt. I'm 17 years old and currently studying Engineering. I love building modern, responsive, and dynamic web applications using the latest technologies.
+Hey there! I'm **Seif**, a passionate Full-Stack Developer from Alexandria, Egypt. I'm 17 years old and currently studying Engineering. I love building modern, responsive, and dynamic web applications using the latest technologies.
 
 ## 🚀 Skills
 - **Languages:** HTML, CSS, JavaScript, PHP, SQL
-- **Frameworks/Libraries:** React.js, Next.js (App Router), Laravel, Tailwind CSS, Bootstrap, Headless UI, Zod
-- **Databases:** MySQL, Prisma ORM
-- **Authentication:** JWT (HttpOnly cookies), bcrypt
+- **Front-End:** React.js, Next.js (App Router), Tailwind CSS, Bootstrap, Headless UI
+- **Back-End:** Node.js, Express.js, Laravel, NextAuth.js, JWT (HttpOnly cookies), bcrypt
+- **Validation:** Zod
+- **Databases:** MySQL, MongoDB, Prisma ORM
 - **Tools & Platforms:** VS Code, Git, Vercel, Upwork, FlutterFlow
 
 ## 🌐 Projects
