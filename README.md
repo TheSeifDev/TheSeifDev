@@ -1,24 +1,33 @@
-# 💻 Seif - Full-Stack Developer & Tech Enthusiast
+💻 Seif - Full-Stack Developer & Tech Enthusiast
+Hey there! I'm Seif, a passionate Full-Stack Developer from Alexandria, Egypt. I'm 17 years old and currently studying Engineering. I love building modern, responsive, and dynamic web applications using the latest technologies.
 
-Hey there! I'm **Seif**, a passionate Front-End Developer from Alexandria, Egypt. I'm 17 years old and currently studying Engineering. I love building modern, responsive, and dynamic web applications using the latest technologies.
+🚀 Skills
+Languages: HTML, CSS, JavaScript, TypeScript, PHP
 
-## 🚀 Skills
-- **Languages:** HTML, CSS, JavaScript, PHP
-- **Frameworks/Libraries:** React.js, Next.js, Laravel, Tailwind CSS, Bootstrap
-- **Databases:** MySQL
-- **Tools & Platforms:** VS Code, Git, Upwork
+Frameworks/Libraries: React.js, Next.js (App Router), Laravel, Tailwind CSS, Bootstrap, Headless UI
 
-## 🌐 Projects
-- **🌍 [Nabd Masr](https://nabdmasr.vercel.app)** - A blood donation platform to connect donors and patients in Egypt.
-- **⚡ Personal Portfolio** - Currently building my portfolio using **Next.js** and **React**.
+Databases: MySQL, Prisma ORM
 
-## 🎯 What I'm Up To
-- Sharpening my skills in Next.js and building my portfolio.
-- Working on freelance projects and finding opportunities on Upwork.
-- Always eager to learn new technologies and take on challenges!
+Authentication & Security: JWT, bcrypt, Zod
 
-## 📫 Get in Touch
-- **Email:** seif.tanjiro@gmail.com
+Tools & Platforms: VS Code, Git & GitHub, Vercel, Upwork, Postman
+
+🌐 Projects
+🌍 Nabd Masr – A blood donation platform to connect donors and patients in Egypt.
+
+⚡ Personal Portfolio – Currently building my portfolio using Next.js, React, and Tailwind.
+
+🎯 What I'm Up To
+Sharpening my skills in Next.js 14, JWT authentication, and database integration with Prisma.
+
+Working on freelance projects and finding opportunities on Upwork.
+
+Preparing for TOEFL/IELTS to apply for global scholarships.
+
+Always eager to learn new technologies and take on challenges!
+
+📫 Get in Touch
+Email: seif.tanjiro@gmail.com
 
 Thanks for stopping by! Feel free to check out my projects and connect with me. Let's build something amazing together! 💪
 
