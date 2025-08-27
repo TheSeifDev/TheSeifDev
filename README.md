@@ -12,7 +12,7 @@ Hey there! I'm **Seif**, a passionate Full-Stack Developer from Alexandria, Egyp
 
 ## 🌐 Projects
 - **🌍 [Nabd Masr](https://nabdmasr.vercel.app)** - A blood donation platform to connect donors and patients in Egypt.
-- **⚡ [Portfolio](https://seifddev.vercel.app)** - Currently building my portfolio using **Next.js** and **React**.
+- **⚡ [Portfolio](https://seifdev.vercel.app)** - Currently building my portfolio using **Next.js** and **React**.
 
 ## 🎯 What I'm Up To
 - Sharpening my skills in Next.js and building my portfolio.
