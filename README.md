@@ -1,6 +1,6 @@
 # 💻 Seif - Full-Stack Developer & Tech Enthusiast
 
-Hey there! I'm **Seif**, a passionate Full-Stack Developer from Alexandria, Egypt. I'm 17 years old and currently studying Engineering. I love building modern, responsive, and dynamic web applications using the latest technologies.
+Hey there this my new account! I'm **Seif**, a passionate Full-Stack Developer from Alexandria, Egypt. I'm 18 years old and currently studying Engineering. I love building modern, responsive, and dynamic web applications using the latest technologies.
 
 ## 🚀 Skills
 - **Languages:** HTML, CSS, JavaScript, PHP, SQL
