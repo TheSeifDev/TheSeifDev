@@ -83,7 +83,7 @@ def main() -> None:
                 "-i",
                 str(unoptimized),
                 "-vf",
-                "split[s0][s1];[s0]palettegen=max_colors=80:stats_mode=diff[p];"
+                "split[s0][s1];[s0]palettegen=max_colors=128:stats_mode=diff[p];"
                 "[s1][p]paletteuse=dither=bayer:bayer_scale=4:diff_mode=rectangle",
                 "-loop",
                 "0",

@@ -3,89 +3,73 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=960, initial-scale=1" />
-  <title>Seif Ayman — Matrix code profile banner</title>
+  <title>Seif Ayman — Japanese blue profile banner</title>
   <style>
     * { box-sizing: border-box; }
-    html, body { width: 960px; height: 300px; margin: 0; overflow: hidden; background: #020805; }
-    body { color: #e7fff0; font-family: Inter, "Segoe UI", Arial, sans-serif; }
-    .poster {
-      position: relative; width: 960px; height: 300px; overflow: hidden;
-      border: 1px solid rgba(93, 255, 137, .55); border-radius: 18px;
-      background: radial-gradient(ellipse at 82% 49%, rgba(14, 104, 42, .32), transparent 33%), radial-gradient(ellipse at 12% 6%, rgba(0, 73, 29, .22), transparent 42%), linear-gradient(112deg, #030907 0%, #06140c 48%, #020805 100%);
-      box-shadow: inset 0 0 60px rgba(15, 174, 55, .12), 0 0 28px rgba(23, 255, 92, .12);
-    }
-    .matrix-wash { position: absolute; inset: 0; z-index: 0; background: linear-gradient(90deg, rgba(1, 7, 4, .25), rgba(2, 10, 5, .18) 52%, rgba(1, 7, 4, .05)); }
-    .scanlines { position: absolute; inset: 0; z-index: 5; pointer-events: none; opacity: .14; background: repeating-linear-gradient(to bottom, transparent 0, transparent 3px, rgba(112, 255, 144, .2) 4px, transparent 5px); mix-blend-mode: screen; }
-    .scan { position: absolute; z-index: 6; top: -100px; left: 0; width: 100%; height: 62px; pointer-events: none; background: linear-gradient(180deg, transparent, rgba(65, 255, 123, .04), rgba(68, 255, 117, .19), transparent); animation: scan 4s linear infinite; }
-    .rain { position: absolute; inset: 0; z-index: 1; overflow: hidden; pointer-events: none; }
-    .stream { position: absolute; top: -235px; white-space: pre; color: #65ff8a; opacity: .42; text-shadow: 0 0 8px rgba(75, 255, 126, .85); font: 11px/1.38 "DejaVu Sans Mono", Consolas, monospace; writing-mode: vertical-rl; user-select: none; animation: fall 4s linear infinite; animation-delay: var(--delay); }
-    .stream:nth-child(3n) { color: #c1ffd0; opacity: .52; font-size: 10px; }
-    .stream:nth-child(4n) { color: #35d766; opacity: .35; font-size: 12px; }
-    .topline { position: absolute; z-index: 4; top: 23px; left: 38px; right: 38px; display: flex; justify-content: space-between; align-items: center; color: #86b695; font: 700 9px/1.2 "DejaVu Sans Mono", Consolas, monospace; letter-spacing: 2px; }
-    .brand { display: flex; align-items: center; gap: 9px; }
-    .brand-mark { color: #6cff91; font-size: 14px; text-shadow: 0 0 12px #28ff65; }
-    .status { padding: 7px 11px; display: flex; align-items: center; gap: 8px; border: 1px solid rgba(86, 255, 125, .28); border-radius: 25px; color: #b7ffc9; background: rgba(3, 30, 14, .7); letter-spacing: 1px; }
-    .dot { width: 6px; height: 6px; background: #48ff7c; border-radius: 50%; box-shadow: 0 0 11px #48ff7c; animation: pulse 2s ease-in-out infinite; }
-    .copy { position: absolute; z-index: 3; top: 66px; left: 42px; width: 562px; text-shadow: 0 2px 12px #020805; }
-    .eyebrow { color: #73ff98; font: 700 9px/1.2 "DejaVu Sans Mono", Consolas, monospace; letter-spacing: 3px; text-shadow: 0 0 12px rgba(68, 255, 115, .6); }
-    h1 { margin: 8px 0 5px; font-size: 40px; line-height: .94; letter-spacing: -1.5px; font-weight: 850; }
-    h1 .surname { color: #75ff99; text-shadow: 0 0 21px rgba(49, 255, 103, .56); }
-    .role { color: #e6ffe9; font: 700 10px/1.4 "DejaVu Sans Mono", Consolas, monospace; letter-spacing: 1px; }
-    .slash { color: #65ff91; padding: 0 5px; }
-    .tagline { margin: 6px 0 8px; color: #acc7b2; font-size: 11px; letter-spacing: .15px; }
-    .chips { display: flex; gap: 7px; }
-    .chip { padding: 4px 8px; border: 1px solid rgba(91, 255, 129, .34); border-radius: 4px; color: #cbffd6; background: rgba(3, 27, 12, .83); font: 700 8px/1 "DejaVu Sans Mono", Consolas, monospace; letter-spacing: .8px; }
-    .portrait-frame { position: absolute; z-index: 3; right: 50px; top: 39px; width: 222px; height: 222px; padding: 5px; border: 1px solid rgba(102, 255, 139, .82); border-radius: 50%; background: linear-gradient(140deg, rgba(18, 70, 31, .94), rgba(2, 13, 7, .94)); box-shadow: 0 0 13px rgba(68, 255, 109, .55), 0 0 35px rgba(38, 255, 79, .23), inset 0 0 20px rgba(81, 255, 116, .23); animation: ring-pulse 4s ease-in-out infinite; }
-    .portrait { width: 100%; height: 100%; display: block; border-radius: 50%; object-fit: cover; object-position: center; filter: contrast(1.04) saturate(1.04); }
-    .portrait-frame::after { content: ""; position: absolute; inset: 5px; border-radius: 50%; background: linear-gradient(180deg, transparent 42%, rgba(41, 255, 91, .3) 50%, transparent 59%); background-size: 100% 220%; animation: portrait-scan 4s linear infinite; pointer-events: none; }
-    .terminal { position: absolute; z-index: 4; left: 42px; bottom: 16px; width: 500px; height: 45px; display: flex; align-items: center; gap: 8px; padding: 0 10px; border: 1px solid rgba(86, 255, 127, .38); border-radius: 5px; background: rgba(1, 11, 5, .88); box-shadow: 0 0 18px rgba(17, 255, 74, .08); color: #a9c9af; font: 8px/1.35 "DejaVu Sans Mono", Consolas, monospace; }
-    .terminal-head { flex: none; color: #70ff92; }
-    .command { overflow: hidden; width: 0; white-space: nowrap; color: #edfff0; animation: type 4s steps(31, end) infinite; }
-    .terminal-status { margin-left: auto; white-space: nowrap; color: #64fc8d; }
-    .cursor { display: inline-block; width: 5px; height: 9px; margin-left: 2px; vertical-align: -1px; background: #75ff98; animation: blink 1s steps(1) infinite; }
-    .edge-label { position: absolute; z-index: 3; right: 26px; bottom: 20px; color: rgba(169, 255, 184, .62); font: 8px/1.2 "DejaVu Sans Mono", Consolas, monospace; letter-spacing: 1.2px; writing-mode: vertical-rl; }
-    @keyframes fall { 0% { transform: translateY(-50px); opacity: .04; } 9% { opacity: .44; } 85% { opacity: .34; } 100% { transform: translateY(500px); opacity: .02; } }
-    @keyframes scan { 0% { transform: translateY(0); opacity: 0; } 12% { opacity: .8; } 88% { opacity: .7; } 100% { transform: translateY(420px); opacity: 0; } }
-    @keyframes pulse { 0%,100% { opacity: .62; transform: scale(.88); } 50% { opacity: 1; transform: scale(1.16); } }
-    @keyframes ring-pulse { 0%,100% { box-shadow: 0 0 13px rgba(68, 255, 109, .5), 0 0 28px rgba(38, 255, 79, .2), inset 0 0 20px rgba(81, 255, 116, .2); } 50% { box-shadow: 0 0 20px rgba(68, 255, 109, .78), 0 0 50px rgba(38, 255, 79, .34), inset 0 0 23px rgba(81, 255, 116, .3); } }
-    @keyframes portrait-scan { 0% { background-position: 0 -180%; } 100% { background-position: 0 180%; } }
-    @keyframes type { 0%,8% { width: 0; } 64%,82% { width: 220px; } 100% { width: 0; } }
+    html, body { width: 960px; height: 300px; margin: 0; overflow: hidden; background: #060b12; }
+    body { color: #f4f8ff; font-family: Inter, "Segoe UI", Arial, sans-serif; }
+    .poster { position: relative; width: 960px; height: 300px; overflow: hidden; border: 1px solid rgba(127, 196, 255, .34); border-radius: 18px; background: #07101c; box-shadow: 0 0 28px rgba(82, 176, 255, .12), inset 0 0 44px rgba(16, 36, 61, .4); }
+    .landscape { position: absolute; z-index: 0; inset: -12px; background: url("hero-landscape.jpg") center 53% / cover no-repeat; filter: saturate(.8) brightness(.8); transform: scale(1.05); }
+    .veil { position: absolute; z-index: 1; inset: 0; background: linear-gradient(90deg, rgba(5, 10, 18, .94) 0%, rgba(7, 14, 24, .87) 42%, rgba(8, 18, 32, .27) 70%, rgba(5, 11, 19, .34) 100%), linear-gradient(0deg, rgba(5, 11, 19, .63), transparent 45%); }
+    .skyline-glow { position: absolute; z-index: 1; right: 7%; top: -62px; width: 320px; height: 240px; border-radius: 50%; background: rgba(64, 158, 255, .22); filter: blur(74px); animation: glow 4s ease-in-out infinite; }
+    .grain { position: absolute; z-index: 4; inset: 0; pointer-events: none; opacity: .13; background: repeating-linear-gradient(0deg, transparent 0, transparent 3px, rgba(179, 222, 255, .15) 4px, transparent 5px); }
+    .topline { position: absolute; z-index: 5; left: 40px; right: 40px; top: 24px; display: flex; align-items: center; justify-content: space-between; color: #a8b8cc; font: 700 9px/1.2 "DejaVu Sans Mono", Consolas, monospace; letter-spacing: 2px; }
+    .brand { display: flex; align-items: center; gap: 10px; }
+    .brand-mark { color: #83caff; font-size: 14px; text-shadow: 0 0 14px rgba(110, 190, 255, .7); }
+    .availability { display: flex; align-items: center; gap: 8px; padding: 7px 11px; border: 1px solid rgba(134, 199, 255, .27); border-radius: 30px; color: #d6ecff; background: rgba(6, 20, 36, .69); letter-spacing: 1px; }
+    .status-dot { width: 6px; height: 6px; border-radius: 50%; background: #7fc7ff; box-shadow: 0 0 10px #73beff; animation: pulse 2s ease-in-out infinite; }
+    .copy { position: absolute; z-index: 3; left: 43px; top: 65px; width: 567px; text-shadow: 0 2px 16px rgba(0, 0, 0, .64); }
+    .eyebrow { display: flex; align-items: center; gap: 8px; color: #9bb1c9; font: 700 9px/1.2 "DejaVu Sans Mono", Consolas, monospace; letter-spacing: 2.5px; }
+    .eyebrow .signal { width: 6px; height: 6px; border-radius: 50%; background: #83caff; box-shadow: 0 0 11px #83caff; animation: pulse 2s ease-in-out infinite; }
+    h1 { margin: 11px 0 7px; font-size: 47px; line-height: .91; letter-spacing: -1.9px; font-weight: 850; }
+    h1 .first { display: block; color: #f4f8ff; }
+    h1 .last { display: block; color: #72bcff; text-shadow: 0 0 22px rgba(69, 157, 255, .32); }
+    .jp-line { margin: 10px 0 6px; color: #e5f2ff; font-size: 11px; letter-spacing: .7px; }
+    .summary { margin: 0; max-width: 475px; color: #afbdcf; font-size: 10px; line-height: 1.45; }
+    .chips { display: flex; gap: 7px; margin-top: 10px; }
+    .chip { padding: 5px 8px; border: 1px solid rgba(134, 198, 255, .26); border-radius: 4px; color: #d5ebff; background: rgba(10, 25, 43, .72); font: 700 8px/1 "DejaVu Sans Mono", Consolas, monospace; letter-spacing: .65px; }
+    .chip.primary { color: #e8f6ff; border-color: rgba(127, 194, 255, .47); background: rgba(39, 111, 171, .28); }
+    .portrait-wrap { position: absolute; z-index: 2; right: 58px; bottom: -48px; width: 270px; height: 360px; overflow: hidden; filter: drop-shadow(0 0 26px rgba(68, 156, 255, .18)); animation: float 4s ease-in-out infinite; }
+    .portrait { width: 100%; height: 100%; object-fit: contain; object-position: center bottom; opacity: .98; }
+    .portrait-light { position: absolute; z-index: 1; right: 88px; bottom: -105px; width: 230px; height: 230px; border-radius: 50%; background: rgba(59, 153, 255, .22); filter: blur(75px); animation: glow 4s ease-in-out infinite; }
+    .samurai { position: absolute; z-index: 5; right: 28px; top: 74px; color: rgba(224, 242, 255, .82); font: 700 12px/1.2 "DejaVu Sans Mono", Consolas, monospace; letter-spacing: 5px; writing-mode: vertical-rl; text-shadow: 0 0 12px rgba(128, 195, 255, .35); }
+    .terminal { position: absolute; z-index: 5; right: 42px; bottom: 17px; width: 265px; height: 34px; display: flex; align-items: center; gap: 7px; padding: 0 9px; border: 1px solid rgba(137, 198, 255, .29); border-radius: 5px; background: rgba(5, 13, 23, .84); color: #bfd3e7; font: 8px/1.2 "DejaVu Sans Mono", Consolas, monospace; backdrop-filter: blur(6px); }
+    .prompt { color: #86c9ff; }
+    .command { display: inline-block; width: 0; overflow: hidden; white-space: nowrap; color: #edf7ff; animation: type 4s steps(22, end) infinite; }
+    .cursor { flex: none; width: 5px; height: 9px; background: #86c9ff; animation: blink 1s steps(1) infinite; }
+    .jp-seal { position: absolute; z-index: 4; right: 313px; top: 26px; color: rgba(159, 207, 249, .37); font-size: 16px; writing-mode: vertical-rl; letter-spacing: 4px; }
+    .accent-line { position: absolute; z-index: 5; left: 43px; bottom: 10px; width: 518px; height: 1px; background: linear-gradient(90deg, rgba(123, 195, 255, .7), rgba(123, 195, 255, .18), transparent); transform-origin: left; animation: line 4s ease-in-out infinite; }
+    .accent-line::after { content: ""; position: absolute; left: 0; top: -1px; width: 42px; height: 3px; background: #8bcfff; border-radius: 4px; filter: blur(2px); animation: travel 4s ease-in-out infinite; }
+    @keyframes glow { 0%,100% { opacity: .68; transform: scale(.94); } 50% { opacity: 1; transform: scale(1.08); } }
+    @keyframes pulse { 0%,100% { opacity: .58; transform: scale(.88); } 50% { opacity: 1; transform: scale(1.17); } }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+    @keyframes type { 0%,10% { width: 0; } 60%,81% { width: 150px; } 100% { width: 0; } }
     @keyframes blink { 50% { opacity: 0; } }
+    @keyframes line { 0%,100% { opacity: .48; } 50% { opacity: 1; } }
+    @keyframes travel { 0%,100% { left: 0; } 50% { left: 91%; } }
   </style>
 </head>
 <body>
   <main class="poster">
-    <div class="rain" aria-hidden="true">
-      <span class="stream" style="left:3%;--delay:-.1s">ｱ01010101ｶｻ01100101ﾀﾅ10101011</span>
-      <span class="stream" style="left:9%;--delay:-1.7s">00110110ﾐﾊ0110ｳﾗ001101</span>
-      <span class="stream" style="left:15%;--delay:-2.9s">ｷ00101101ｻﾄ101001ｱﾐ0101</span>
-      <span class="stream" style="left:22%;--delay:-.8s">10110010ﾈｵﾌﾚｰﾑ00110101</span>
-      <span class="stream" style="left:29%;--delay:-2.1s">ｳ00101001ﾅｶ110010ﾂｷ001</span>
-      <span class="stream" style="left:36%;--delay:-3.4s">01101011ﾊﾟﾗ001010ﾐﾄ100101</span>
-      <span class="stream" style="left:43%;--delay:-1.3s">ﾌﾞﾗｯｸ01001101ｿﾌﾄ00100110</span>
-      <span class="stream" style="left:51%;--delay:-2.5s">10100110ﾋｶﾘ00101001ﾂﾅｸﾞ</span>
-      <span class="stream" style="left:59%;--delay:-.5s">ｻｲﾊﾞｰ01010011ﾐﾗｲ001011</span>
-      <span class="stream" style="left:67%;--delay:-3.1s">01101010ｺｰﾄﾞ10010001ｾｶｲ</span>
-      <span class="stream" style="left:76%;--delay:-1.9s">ﾃﾞｰﾀ01001010ﾐﾄﾞﾘ00110011</span>
-      <span class="stream" style="left:85%;--delay:-.3s">11001010ｼｽﾃﾑ001101ｱﾝｾﾞﾝ</span>
-      <span class="stream" style="left:94%;--delay:-2.7s">ｶｲﾊﾂ00101101ﾀﾞｲｼﾞﾝ1010</span>
-    </div>
-    <div class="matrix-wash"></div>
+    <div class="landscape"></div>
+    <div class="veil"></div>
+    <div class="skyline-glow"></div>
     <header class="topline">
-      <div class="brand"><span class="brand-mark">◈</span><span>THESEIFDEV / MATRIX PROFILE</span></div>
-      <div class="status"><span class="dot"></span> OPEN TO REMOTE</div>
+      <div class="brand"><span class="brand-mark">◈</span><span>THESEIFDEV&nbsp; / &nbsp;侍 ENGINEER</span></div>
+      <div class="availability"><span class="status-dot"></span> OPEN TO REMOTE</div>
     </header>
     <section class="copy">
-      <div class="eyebrow">BUILDING SYSTEMS THAT SHIP</div>
-      <h1>SEIF AYMAN<br /><span class="surname">AHMED</span></h1>
-      <div class="role">SENIOR FULL-STACK DEVELOPER <span class="slash">//</span> ALEXANDRIA, EGYPT</div>
-      <p class="tagline">From database schema to screen. From idea to shipped product.</p>
-      <div class="chips"><span class="chip">PRODUCT ENGINEERING</span><span class="chip">AI / RAG</span><span class="chip">WEB / IOT</span></div>
+      <div class="eyebrow"><span class="signal"></span> SENIOR FULL STACK DEVELOPER</div>
+      <h1><span class="first">SEIF</span><span class="last">AYMAN</span></h1>
+      <div class="jp-line">テクノロジーで、より良い未来をつくる。</div>
+      <p class="summary">I build production web, desktop and AI products—from typed interfaces to APIs and data models.</p>
+      <div class="chips"><span class="chip primary">5+ YEARS BUILDING</span><span class="chip">WEB / AI / IOT</span><span class="chip">ALEXANDRIA, EGYPT</span></div>
     </section>
-    <div class="portrait-frame"><img class="portrait" src="seif-matrix-portrait.png" alt="" /></div>
-    <div class="terminal"><span class="terminal-head">seif@product-lab:~$</span><span class="command">ship --from-schema --to-screen</span><span class="cursor"></span><span class="terminal-status">✓ BUILD: LIVE</span></div>
-    <div class="edge-label">DESIGN / BUILD / SHIP</div>
-    <div class="scan"></div><div class="scanlines"></div>
+    <div class="portrait-wrap"><img class="portrait" src="seif-portrait.webp" alt="" /></div>
+    <div class="portrait-light"></div>
+    <div class="jp-seal">サムライ</div>
+    <div class="terminal"><span class="prompt">$</span><span class="command">build --design --ship</span><span class="cursor"></span><span style="margin-left:auto;color:#8fcaff">● LIVE</span></div>
+    <div class="accent-line"></div>
   </main>
 </body>
 </html>
