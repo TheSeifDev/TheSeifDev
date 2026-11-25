@@ -28,6 +28,12 @@ def main() -> None:
             )
             page.goto(HTML.as_uri(), wait_until="load")
             page.locator(".poster").wait_for()
+            page.wait_for_function(
+                """() => {
+                    const image = document.querySelector('.portrait');
+                    return image && image.complete && image.naturalWidth > 0;
+                }"""
+            )
             page.evaluate("document.fonts.ready")
             page.wait_for_timeout(150)
 

@@ -2,137 +2,90 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Seif Ayman — GitHub Profile Banner</title>
+  <meta name="viewport" content="width=960, initial-scale=1" />
+  <title>Seif Ayman — Matrix code profile banner</title>
   <style>
     * { box-sizing: border-box; }
-    html, body { width: 960px; height: 300px; margin: 0; overflow: hidden; background: #050711; }
-    body { font-family: Inter, "Segoe UI", Arial, sans-serif; color: #eef5ff; }
+    html, body { width: 960px; height: 300px; margin: 0; overflow: hidden; background: #020805; }
+    body { color: #e7fff0; font-family: Inter, "Segoe UI", Arial, sans-serif; }
     .poster {
       position: relative; width: 960px; height: 300px; overflow: hidden;
-      border: 1px solid rgba(106, 176, 255, .48); border-radius: 22px;
-      background:
-        radial-gradient(ellipse at 88% 47%, rgba(31, 82, 186, .28), transparent 33%),
-        radial-gradient(ellipse at 44% 108%, rgba(124, 32, 214, .2), transparent 46%),
-        linear-gradient(118deg, #070a16 0%, #0a1125 48%, #080a17 100%);
-      box-shadow: inset 0 0 54px rgba(16, 61, 149, .18), 0 0 28px rgba(23, 111, 255, .11);
+      border: 1px solid rgba(93, 255, 137, .55); border-radius: 18px;
+      background: radial-gradient(ellipse at 82% 49%, rgba(14, 104, 42, .32), transparent 33%), radial-gradient(ellipse at 12% 6%, rgba(0, 73, 29, .22), transparent 42%), linear-gradient(112deg, #030907 0%, #06140c 48%, #020805 100%);
+      box-shadow: inset 0 0 60px rgba(15, 174, 55, .12), 0 0 28px rgba(23, 255, 92, .12);
     }
-    .grid {
-      position: absolute; inset: -90px; opacity: .22;
-      background-image: linear-gradient(rgba(103, 160, 255, .13) 1px, transparent 1px), linear-gradient(90deg, rgba(103, 160, 255, .13) 1px, transparent 1px);
-      background-size: 38px 38px; transform: perspective(440px) rotateX(56deg) scale(1.4);
-      transform-origin: center bottom; animation: grid-drift 13s linear infinite;
-      mask-image: linear-gradient(to bottom, transparent 0%, #000 42%, #000 92%, transparent 100%);
-    }
-    .scan {
-      position: absolute; z-index: 3; left: 0; top: -90px; width: 100%; height: 70px;
-      background: linear-gradient(180deg, transparent, rgba(43, 163, 255, .06), rgba(132, 75, 255, .12), transparent);
-      animation: scan 5.2s linear infinite; pointer-events: none;
-    }
-    .topline {
-      position: absolute; left: 38px; right: 38px; top: 26px; display: flex;
-      align-items: center; justify-content: space-between; z-index: 5;
-      color: #8ba1c5; font: 700 10px/1.2 "DejaVu Sans Mono", Consolas, monospace; letter-spacing: 2px;
-    }
-    .brand { display: flex; gap: 10px; align-items: center; }
-    .brand-mark { color: #37e7ff; text-shadow: 0 0 12px #37e7ff; font-size: 14px; }
-    .availability { display: flex; gap: 9px; align-items: center; padding: 8px 12px; border: 1px solid rgba(48, 234, 177, .25); border-radius: 30px; color: #abf6d7; background: rgba(14, 62, 59, .24); letter-spacing: 1.3px; }
-    .live-dot { width: 7px; height: 7px; border-radius: 50%; background: #39efac; box-shadow: 0 0 8px #39efac, 0 0 17px rgba(57, 239, 172, .8); animation: pulse 1.45s ease-in-out infinite; }
-    .copy { position: absolute; z-index: 4; left: 42px; top: 78px; width: 560px; }
-    .eyebrow { color: #6fe7ff; font: 700 10px/1.2 "DejaVu Sans Mono", Consolas, monospace; letter-spacing: 3px; text-shadow: 0 0 15px rgba(71, 212, 255, .44); }
-    h1 { margin: 10px 0 8px; font-size: 46px; line-height: 1.02; letter-spacing: -2px; font-weight: 850; }
-    h1 .surname { color: #8ab4ff; text-shadow: 0 0 24px rgba(66, 138, 255, .42); }
-    .role { color: #e4ecff; font: 700 12px/1.4 "DejaVu Sans Mono", Consolas, monospace; letter-spacing: 1.2px; }
-    .role .slash { color: #b66cff; padding: 0 5px; }
-    .tagline { margin: 11px 0 15px; width: 470px; color: #9ba9c4; font-size: 12px; line-height: 1.5; letter-spacing: .25px; }
-    .chips { display: flex; gap: 8px; align-items: center; }
-    .chip { padding: 6px 10px; border-radius: 5px; color: #c9d8f7; background: rgba(25, 42, 77, .62); border: 1px solid rgba(107, 154, 237, .24); font: 700 9px/1 "DejaVu Sans Mono", Consolas, monospace; letter-spacing: 1px; }
-    .chip:nth-child(1) { color: #64e8ff; border-color: rgba(64, 218, 255, .34); }
-    .chip:nth-child(2) { color: #c19cff; border-color: rgba(168, 117, 255, .34); }
-    .chip:nth-child(3) { color: #80f0c8; border-color: rgba(96, 225, 178, .3); }
-    .visual { position: absolute; right: 31px; top: 63px; width: 303px; height: 205px; z-index: 2; }
-    .halo { position: absolute; width: 210px; height: 210px; top: -8px; right: 10px; border-radius: 50%; background: radial-gradient(circle, rgba(29, 102, 255, .18), rgba(142, 37, 235, .09) 43%, transparent 69%); filter: blur(7px); animation: breathe 3s ease-in-out infinite; }
-    .orbit { position: absolute; border: 1px solid rgba(80, 151, 255, .3); border-radius: 50%; }
-    .orbit.one { width: 202px; height: 82px; top: 53px; right: 12px; transform: rotate(-31deg); animation: orbit-a 9s linear infinite; }
-    .orbit.two { width: 196px; height: 78px; top: 56px; right: 15px; transform: rotate(42deg); border-color: rgba(185, 102, 255, .28); animation: orbit-b 12s linear infinite; }
-    .orbit.three { width: 154px; height: 154px; top: 17px; right: 37px; border-style: dashed; border-color: rgba(77, 216, 255, .25); animation: spin 24s linear infinite; }
-    .core { position: absolute; top: 69px; right: 94px; width: 43px; height: 43px; border-radius: 50%; background: radial-gradient(circle at 34% 30%, #e1fdff 0%, #49d5ff 18%, #1a68ff 53%, #6b28dc 80%); box-shadow: 0 0 17px #35c7ff, 0 0 48px rgba(45, 124, 255, .76), 0 0 82px rgba(134, 44, 255, .45); animation: core-pulse 2.7s ease-in-out infinite; }
-    .node { position: absolute; width: 8px; height: 8px; border-radius: 50%; background: #6ceaff; box-shadow: 0 0 12px #6ceaff, 0 0 25px #6ceaff; }
-    .node.n1 { top: 31px; right: 91px; animation: node-float 2.7s ease-in-out infinite; }
-    .node.n2 { top: 141px; right: 193px; background: #cf8bff; box-shadow: 0 0 12px #cf8bff, 0 0 24px #a848ff; animation: node-float 3.3s ease-in-out infinite reverse; }
-    .node.n3 { top: 143px; right: 42px; width: 5px; height: 5px; animation: pulse 1.7s ease-in-out infinite; }
-    .terminal {
-      position: absolute; width: 242px; height: 87px; right: 0; bottom: 0; z-index: 4;
-      border: 1px solid rgba(103, 162, 255, .43); border-radius: 9px; overflow: hidden;
-      background: rgba(5, 11, 25, .9); box-shadow: 0 9px 24px rgba(0, 0, 0, .38), 0 0 18px rgba(58, 110, 255, .12);
-      backdrop-filter: blur(8px);
-    }
-    .terminal-head { height: 22px; display: flex; align-items: center; gap: 5px; padding: 0 9px; border-bottom: 1px solid rgba(115, 149, 206, .16); color: #8295b9; font: 8px/1 "DejaVu Sans Mono", Consolas, monospace; }
-    .tdot { width: 5px; height: 5px; border-radius: 50%; background: #ff668a; }
-    .tdot:nth-child(2) { background: #ffca69; }
-    .tdot:nth-child(3) { background: #48e0a2; }
-    .terminal-label { margin-left: 5px; }
-    .terminal-live { margin-left: auto; color: #70efb9; }
-    .terminal-body { padding: 9px 10px; color: #a9bce0; font: 8px/1.62 "DejaVu Sans Mono", Consolas, monospace; white-space: nowrap; }
-    .prompt { color: #53e2ff; }
-    .command { display: inline-block; overflow: hidden; width: 0; vertical-align: bottom; color: #eee9ff; animation: type 3.7s steps(29, end) infinite; }
-    .success { color: #61efb2; }
-    .muted { color: #60779f; }
-    .cursor { display: inline-block; width: 5px; height: 9px; margin-left: 2px; background: #64e6ff; vertical-align: -1px; animation: blink .78s steps(1) infinite; }
-    .corner { position: absolute; z-index: 5; right: 40px; top: 94px; color: rgba(138, 180, 255, .6); font: 8px/1.5 "DejaVu Sans Mono", Consolas, monospace; letter-spacing: 1px; writing-mode: vertical-rl; }
-    .footerline { position: absolute; bottom: 19px; left: 42px; width: 493px; height: 1px; background: linear-gradient(90deg, rgba(60, 218, 255, .62), rgba(139, 83, 255, .48), transparent); transform-origin: left; animation: line-glow 3.4s ease-in-out infinite; }
-    .footerline::after { content: ""; position: absolute; left: 0; top: -1px; width: 48px; height: 3px; border-radius: 3px; background: #69e8ff; filter: blur(2px); animation: line-run 3.4s ease-in-out infinite; }
-    @keyframes grid-drift { to { background-position: 0 38px, 38px 0; } }
-    @keyframes scan { 0% { transform: translateY(0); opacity: 0; } 12% { opacity: .85; } 88% { opacity: .7; } 100% { transform: translateY(410px); opacity: 0; } }
-    @keyframes pulse { 0%,100% { opacity: .56; transform: scale(.86); } 50% { opacity: 1; transform: scale(1.18); } }
-    @keyframes breathe { 0%,100% { transform: scale(.92); opacity: .72; } 50% { transform: scale(1.08); opacity: 1; } }
-    @keyframes orbit-a { to { transform: rotate(329deg); } }
-    @keyframes orbit-b { to { transform: rotate(402deg); } }
-    @keyframes spin { to { transform: rotate(360deg); } }
-    @keyframes core-pulse { 0%,100% { transform: scale(.94); filter: hue-rotate(0deg); } 50% { transform: scale(1.1); filter: hue-rotate(19deg); } }
-    @keyframes node-float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
-    @keyframes type { 0%,10% { width: 0; } 60%,82% { width: 154px; } 100% { width: 0; } }
+    .matrix-wash { position: absolute; inset: 0; z-index: 0; background: linear-gradient(90deg, rgba(1, 7, 4, .25), rgba(2, 10, 5, .18) 52%, rgba(1, 7, 4, .05)); }
+    .scanlines { position: absolute; inset: 0; z-index: 5; pointer-events: none; opacity: .14; background: repeating-linear-gradient(to bottom, transparent 0, transparent 3px, rgba(112, 255, 144, .2) 4px, transparent 5px); mix-blend-mode: screen; }
+    .scan { position: absolute; z-index: 6; top: -100px; left: 0; width: 100%; height: 62px; pointer-events: none; background: linear-gradient(180deg, transparent, rgba(65, 255, 123, .04), rgba(68, 255, 117, .19), transparent); animation: scan 4s linear infinite; }
+    .rain { position: absolute; inset: 0; z-index: 1; overflow: hidden; pointer-events: none; }
+    .stream { position: absolute; top: -235px; white-space: pre; color: #65ff8a; opacity: .42; text-shadow: 0 0 8px rgba(75, 255, 126, .85); font: 11px/1.38 "DejaVu Sans Mono", Consolas, monospace; writing-mode: vertical-rl; user-select: none; animation: fall 4s linear infinite; animation-delay: var(--delay); }
+    .stream:nth-child(3n) { color: #c1ffd0; opacity: .52; font-size: 10px; }
+    .stream:nth-child(4n) { color: #35d766; opacity: .35; font-size: 12px; }
+    .topline { position: absolute; z-index: 4; top: 23px; left: 38px; right: 38px; display: flex; justify-content: space-between; align-items: center; color: #86b695; font: 700 9px/1.2 "DejaVu Sans Mono", Consolas, monospace; letter-spacing: 2px; }
+    .brand { display: flex; align-items: center; gap: 9px; }
+    .brand-mark { color: #6cff91; font-size: 14px; text-shadow: 0 0 12px #28ff65; }
+    .status { padding: 7px 11px; display: flex; align-items: center; gap: 8px; border: 1px solid rgba(86, 255, 125, .28); border-radius: 25px; color: #b7ffc9; background: rgba(3, 30, 14, .7); letter-spacing: 1px; }
+    .dot { width: 6px; height: 6px; background: #48ff7c; border-radius: 50%; box-shadow: 0 0 11px #48ff7c; animation: pulse 2s ease-in-out infinite; }
+    .copy { position: absolute; z-index: 3; top: 66px; left: 42px; width: 562px; text-shadow: 0 2px 12px #020805; }
+    .eyebrow { color: #73ff98; font: 700 9px/1.2 "DejaVu Sans Mono", Consolas, monospace; letter-spacing: 3px; text-shadow: 0 0 12px rgba(68, 255, 115, .6); }
+    h1 { margin: 8px 0 5px; font-size: 40px; line-height: .94; letter-spacing: -1.5px; font-weight: 850; }
+    h1 .surname { color: #75ff99; text-shadow: 0 0 21px rgba(49, 255, 103, .56); }
+    .role { color: #e6ffe9; font: 700 10px/1.4 "DejaVu Sans Mono", Consolas, monospace; letter-spacing: 1px; }
+    .slash { color: #65ff91; padding: 0 5px; }
+    .tagline { margin: 6px 0 8px; color: #acc7b2; font-size: 11px; letter-spacing: .15px; }
+    .chips { display: flex; gap: 7px; }
+    .chip { padding: 4px 8px; border: 1px solid rgba(91, 255, 129, .34); border-radius: 4px; color: #cbffd6; background: rgba(3, 27, 12, .83); font: 700 8px/1 "DejaVu Sans Mono", Consolas, monospace; letter-spacing: .8px; }
+    .portrait-frame { position: absolute; z-index: 3; right: 50px; top: 39px; width: 222px; height: 222px; padding: 5px; border: 1px solid rgba(102, 255, 139, .82); border-radius: 50%; background: linear-gradient(140deg, rgba(18, 70, 31, .94), rgba(2, 13, 7, .94)); box-shadow: 0 0 13px rgba(68, 255, 109, .55), 0 0 35px rgba(38, 255, 79, .23), inset 0 0 20px rgba(81, 255, 116, .23); animation: ring-pulse 4s ease-in-out infinite; }
+    .portrait { width: 100%; height: 100%; display: block; border-radius: 50%; object-fit: cover; object-position: center; filter: contrast(1.04) saturate(1.04); }
+    .portrait-frame::after { content: ""; position: absolute; inset: 5px; border-radius: 50%; background: linear-gradient(180deg, transparent 42%, rgba(41, 255, 91, .3) 50%, transparent 59%); background-size: 100% 220%; animation: portrait-scan 4s linear infinite; pointer-events: none; }
+    .terminal { position: absolute; z-index: 4; left: 42px; bottom: 16px; width: 500px; height: 45px; display: flex; align-items: center; gap: 8px; padding: 0 10px; border: 1px solid rgba(86, 255, 127, .38); border-radius: 5px; background: rgba(1, 11, 5, .88); box-shadow: 0 0 18px rgba(17, 255, 74, .08); color: #a9c9af; font: 8px/1.35 "DejaVu Sans Mono", Consolas, monospace; }
+    .terminal-head { flex: none; color: #70ff92; }
+    .command { overflow: hidden; width: 0; white-space: nowrap; color: #edfff0; animation: type 4s steps(31, end) infinite; }
+    .terminal-status { margin-left: auto; white-space: nowrap; color: #64fc8d; }
+    .cursor { display: inline-block; width: 5px; height: 9px; margin-left: 2px; vertical-align: -1px; background: #75ff98; animation: blink 1s steps(1) infinite; }
+    .edge-label { position: absolute; z-index: 3; right: 26px; bottom: 20px; color: rgba(169, 255, 184, .62); font: 8px/1.2 "DejaVu Sans Mono", Consolas, monospace; letter-spacing: 1.2px; writing-mode: vertical-rl; }
+    @keyframes fall { 0% { transform: translateY(-50px); opacity: .04; } 9% { opacity: .44; } 85% { opacity: .34; } 100% { transform: translateY(500px); opacity: .02; } }
+    @keyframes scan { 0% { transform: translateY(0); opacity: 0; } 12% { opacity: .8; } 88% { opacity: .7; } 100% { transform: translateY(420px); opacity: 0; } }
+    @keyframes pulse { 0%,100% { opacity: .62; transform: scale(.88); } 50% { opacity: 1; transform: scale(1.16); } }
+    @keyframes ring-pulse { 0%,100% { box-shadow: 0 0 13px rgba(68, 255, 109, .5), 0 0 28px rgba(38, 255, 79, .2), inset 0 0 20px rgba(81, 255, 116, .2); } 50% { box-shadow: 0 0 20px rgba(68, 255, 109, .78), 0 0 50px rgba(38, 255, 79, .34), inset 0 0 23px rgba(81, 255, 116, .3); } }
+    @keyframes portrait-scan { 0% { background-position: 0 -180%; } 100% { background-position: 0 180%; } }
+    @keyframes type { 0%,8% { width: 0; } 64%,82% { width: 220px; } 100% { width: 0; } }
     @keyframes blink { 50% { opacity: 0; } }
-    @keyframes line-glow { 0%,100% { opacity: .52; } 50% { opacity: 1; } }
-    @keyframes line-run { 0% { left: 0; } 50% { left: 86%; } 100% { left: 0; } }
-  </style>
-  <style>
-    .grid { animation: none; }
-    .scan, .halo, .orbit.one, .orbit.two, .orbit.three, .core, .command, .footerline, .footerline::after { animation-duration: 4s; }
-    .live-dot, .node.n1, .node.n2, .node.n3 { animation-duration: 2s; }
-    .cursor { animation-duration: 1s; }
   </style>
 </head>
 <body>
   <main class="poster">
-    <div class="grid"></div>
-    <div class="scan"></div>
+    <div class="rain" aria-hidden="true">
+      <span class="stream" style="left:3%;--delay:-.1s">ｱ01010101ｶｻ01100101ﾀﾅ10101011</span>
+      <span class="stream" style="left:9%;--delay:-1.7s">00110110ﾐﾊ0110ｳﾗ001101</span>
+      <span class="stream" style="left:15%;--delay:-2.9s">ｷ00101101ｻﾄ101001ｱﾐ0101</span>
+      <span class="stream" style="left:22%;--delay:-.8s">10110010ﾈｵﾌﾚｰﾑ00110101</span>
+      <span class="stream" style="left:29%;--delay:-2.1s">ｳ00101001ﾅｶ110010ﾂｷ001</span>
+      <span class="stream" style="left:36%;--delay:-3.4s">01101011ﾊﾟﾗ001010ﾐﾄ100101</span>
+      <span class="stream" style="left:43%;--delay:-1.3s">ﾌﾞﾗｯｸ01001101ｿﾌﾄ00100110</span>
+      <span class="stream" style="left:51%;--delay:-2.5s">10100110ﾋｶﾘ00101001ﾂﾅｸﾞ</span>
+      <span class="stream" style="left:59%;--delay:-.5s">ｻｲﾊﾞｰ01010011ﾐﾗｲ001011</span>
+      <span class="stream" style="left:67%;--delay:-3.1s">01101010ｺｰﾄﾞ10010001ｾｶｲ</span>
+      <span class="stream" style="left:76%;--delay:-1.9s">ﾃﾞｰﾀ01001010ﾐﾄﾞﾘ00110011</span>
+      <span class="stream" style="left:85%;--delay:-.3s">11001010ｼｽﾃﾑ001101ｱﾝｾﾞﾝ</span>
+      <span class="stream" style="left:94%;--delay:-2.7s">ｶｲﾊﾂ00101101ﾀﾞｲｼﾞﾝ1010</span>
+    </div>
+    <div class="matrix-wash"></div>
     <header class="topline">
-      <div class="brand"><span class="brand-mark">◈</span><span>THESEIFDEV&nbsp; / &nbsp;PROFILE 01</span></div>
-      <div class="availability"><span class="live-dot"></span> OPEN TO REMOTE</div>
+      <div class="brand"><span class="brand-mark">◈</span><span>THESEIFDEV / MATRIX PROFILE</span></div>
+      <div class="status"><span class="dot"></span> OPEN TO REMOTE</div>
     </header>
     <section class="copy">
       <div class="eyebrow">BUILDING SYSTEMS THAT SHIP</div>
       <h1>SEIF AYMAN<br /><span class="surname">AHMED</span></h1>
       <div class="role">SENIOR FULL-STACK DEVELOPER <span class="slash">//</span> ALEXANDRIA, EGYPT</div>
-      <p class="tagline">From data models and APIs to polished, production-ready experiences.</p>
-      <div class="chips"><span class="chip">PRODUCT ENGINEERING</span><span class="chip">AI &amp; RAG</span><span class="chip">IOT SYSTEMS</span></div>
+      <p class="tagline">From database schema to screen. From idea to shipped product.</p>
+      <div class="chips"><span class="chip">PRODUCT ENGINEERING</span><span class="chip">AI / RAG</span><span class="chip">WEB / IOT</span></div>
     </section>
-    <section class="visual" aria-hidden="true">
-      <div class="halo"></div>
-      <div class="orbit one"></div><div class="orbit two"></div><div class="orbit three"></div>
-      <div class="core"></div><div class="node n1"></div><div class="node n2"></div><div class="node n3"></div>
-      <div class="terminal">
-        <div class="terminal-head"><i class="tdot"></i><i class="tdot"></i><i class="tdot"></i><span class="terminal-label">seif@product-lab ~/build</span><span class="terminal-live">LIVE</span></div>
-        <div class="terminal-body">
-          <div><span class="prompt">$</span> <span class="command">ship --from-schema --to-screen</span><span class="cursor"></span></div>
-          <div><span class="success">✓</span> API contracts <span class="success">validated</span></div>
-          <div><span class="success">✓</span> product layers <span class="success">connected</span> <span class="muted">[web · AI · IoT]</span></div>
-        </div>
-      </div>
-    </section>
-    <div class="corner">DESIGN&nbsp; / &nbsp;ENGINEER&nbsp; / &nbsp;SHIP</div>
-    <div class="footerline"></div>
+    <div class="portrait-frame"><img class="portrait" src="seif-matrix-portrait.png" alt="" /></div>
+    <div class="terminal"><span class="terminal-head">seif@product-lab:~$</span><span class="command">ship --from-schema --to-screen</span><span class="cursor"></span><span class="terminal-status">✓ BUILD: LIVE</span></div>
+    <div class="edge-label">DESIGN / BUILD / SHIP</div>
+    <div class="scan"></div><div class="scanlines"></div>
   </main>
 </body>
 </html>
