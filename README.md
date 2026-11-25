@@ -91,7 +91,7 @@ I'm **Seif Ayman Ahmed**, a Senior Full-Stack Software Developer based in Alexan
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/TheSeifDev/TheSeifDev/main/assets/tech-stack.png" width="498" alt="Technology icons in three rows: TypeScript, JavaScript, React, Next.js, Tailwind, Node.js, NestJS, Express, Laravel, FastAPI, PostgreSQL, MySQL, SQLite, MongoDB, Redis, Prisma, Supabase, Firebase, Electron, Docker, Cloudflare, Vercel, Git, GitHub, Python, PHP, Figma" />
+<img src="https://raw.githubusercontent.com/TheSeifDev/TheSeifDev/aa2e79dd280aea7dbb8755351b591a3cf4d7531a/assets/tech-stack.png" width="498" alt="Technology icons in three rows: TypeScript, JavaScript, React, Next.js, Tailwind, Node.js, NestJS, Express, Laravel, FastAPI, PostgreSQL, MySQL, SQLite, MongoDB, Redis, Prisma, Supabase, Firebase, Electron, Docker, Cloudflare, Vercel, Git, GitHub, Python, PHP, Figma" />
 
 </div>
 
