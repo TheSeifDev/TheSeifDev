@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Seif Ayman — GitHub Profile Banner</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { width: 960px; height: 300px; margin: 0; overflow: hidden; background: #050711; }
+    body { font-family: Inter, "Segoe UI", Arial, sans-serif; color: #eef5ff; }
+    .poster {
+      position: relative; width: 960px; height: 300px; overflow: hidden;
+      border: 1px solid rgba(106, 176, 255, .48); border-radius: 22px;
+      background:
+        radial-gradient(ellipse at 88% 47%, rgba(31, 82, 186, .28), transparent 33%),
+        radial-gradient(ellipse at 44% 108%, rgba(124, 32, 214, .2), transparent 46%),
+        linear-gradient(118deg, #070a16 0%, #0a1125 48%, #080a17 100%);
+      box-shadow: inset 0 0 54px rgba(16, 61, 149, .18), 0 0 28px rgba(23, 111, 255, .11);
+    }
+    .grid {
+      position: absolute; inset: -90px; opacity: .22;
+      background-image: linear-gradient(rgba(103, 160, 255, .13) 1px, transparent 1px), linear-gradient(90deg, rgba(103, 160, 255, .13) 1px, transparent 1px);
+      background-size: 38px 38px; transform: perspective(440px) rotateX(56deg) scale(1.4);
+      transform-origin: center bottom; animation: grid-drift 13s linear infinite;
+      mask-image: linear-gradient(to bottom, transparent 0%, #000 42%, #000 92%, transparent 100%);
+    }
+    .scan {
+      position: absolute; z-index: 3; left: 0; top: -90px; width: 100%; height: 70px;
+      background: linear-gradient(180deg, transparent, rgba(43, 163, 255, .06), rgba(132, 75, 255, .12), transparent);
+      animation: scan 5.2s linear infinite; pointer-events: none;
+    }
+    .topline {
+      position: absolute; left: 38px; right: 38px; top: 26px; display: flex;
+      align-items: center; justify-content: space-between; z-index: 5;
+      color: #8ba1c5; font: 700 10px/1.2 "DejaVu Sans Mono", Consolas, monospace; letter-spacing: 2px;
+    }
+    .brand { display: flex; gap: 10px; align-items: center; }
+    .brand-mark { color: #37e7ff; text-shadow: 0 0 12px #37e7ff; font-size: 14px; }
+    .availability { display: flex; gap: 9px; align-items: center; padding: 8px 12px; border: 1px solid rgba(48, 234, 177, .25); border-radius: 30px; color: #abf6d7; background: rgba(14, 62, 59, .24); letter-spacing: 1.3px; }
+    .live-dot { width: 7px; height: 7px; border-radius: 50%; background: #39efac; box-shadow: 0 0 8px #39efac, 0 0 17px rgba(57, 239, 172, .8); animation: pulse 1.45s ease-in-out infinite; }
+    .copy { position: absolute; z-index: 4; left: 42px; top: 78px; width: 560px; }
+    .eyebrow { color: #6fe7ff; font: 700 10px/1.2 "DejaVu Sans Mono", Consolas, monospace; letter-spacing: 3px; text-shadow: 0 0 15px rgba(71, 212, 255, .44); }
+    h1 { margin: 10px 0 8px; font-size: 46px; line-height: 1.02; letter-spacing: -2px; font-weight: 850; }
+    h1 .surname { color: #8ab4ff; text-shadow: 0 0 24px rgba(66, 138, 255, .42); }
+    .role { color: #e4ecff; font: 700 12px/1.4 "DejaVu Sans Mono", Consolas, monospace; letter-spacing: 1.2px; }
+    .role .slash { color: #b66cff; padding: 0 5px; }
+    .tagline { margin: 11px 0 15px; width: 470px; color: #9ba9c4; font-size: 12px; line-height: 1.5; letter-spacing: .25px; }
+    .chips { display: flex; gap: 8px; align-items: center; }
+    .chip { padding: 6px 10px; border-radius: 5px; color: #c9d8f7; background: rgba(25, 42, 77, .62); border: 1px solid rgba(107, 154, 237, .24); font: 700 9px/1 "DejaVu Sans Mono", Consolas, monospace; letter-spacing: 1px; }
+    .chip:nth-child(1) { color: #64e8ff; border-color: rgba(64, 218, 255, .34); }
+    .chip:nth-child(2) { color: #c19cff; border-color: rgba(168, 117, 255, .34); }
+    .chip:nth-child(3) { color: #80f0c8; border-color: rgba(96, 225, 178, .3); }
+    .visual { position: absolute; right: 31px; top: 63px; width: 303px; height: 205px; z-index: 2; }
+    .halo { position: absolute; width: 210px; height: 210px; top: -8px; right: 10px; border-radius: 50%; background: radial-gradient(circle, rgba(29, 102, 255, .18), rgba(142, 37, 235, .09) 43%, transparent 69%); filter: blur(7px); animation: breathe 3s ease-in-out infinite; }
+    .orbit { position: absolute; border: 1px solid rgba(80, 151, 255, .3); border-radius: 50%; }
+    .orbit.one { width: 202px; height: 82px; top: 53px; right: 12px; transform: rotate(-31deg); animation: orbit-a 9s linear infinite; }
+    .orbit.two { width: 196px; height: 78px; top: 56px; right: 15px; transform: rotate(42deg); border-color: rgba(185, 102, 255, .28); animation: orbit-b 12s linear infinite; }
+    .orbit.three { width: 154px; height: 154px; top: 17px; right: 37px; border-style: dashed; border-color: rgba(77, 216, 255, .25); animation: spin 24s linear infinite; }
+    .core { position: absolute; top: 69px; right: 94px; width: 43px; height: 43px; border-radius: 50%; background: radial-gradient(circle at 34% 30%, #e1fdff 0%, #49d5ff 18%, #1a68ff 53%, #6b28dc 80%); box-shadow: 0 0 17px #35c7ff, 0 0 48px rgba(45, 124, 255, .76), 0 0 82px rgba(134, 44, 255, .45); animation: core-pulse 2.7s ease-in-out infinite; }
+    .node { position: absolute; width: 8px; height: 8px; border-radius: 50%; background: #6ceaff; box-shadow: 0 0 12px #6ceaff, 0 0 25px #6ceaff; }
+    .node.n1 { top: 31px; right: 91px; animation: node-float 2.7s ease-in-out infinite; }
+    .node.n2 { top: 141px; right: 193px; background: #cf8bff; box-shadow: 0 0 12px #cf8bff, 0 0 24px #a848ff; animation: node-float 3.3s ease-in-out infinite reverse; }
+    .node.n3 { top: 143px; right: 42px; width: 5px; height: 5px; animation: pulse 1.7s ease-in-out infinite; }
+    .terminal {
+      position: absolute; width: 242px; height: 87px; right: 0; bottom: 0; z-index: 4;
+      border: 1px solid rgba(103, 162, 255, .43); border-radius: 9px; overflow: hidden;
+      background: rgba(5, 11, 25, .9); box-shadow: 0 9px 24px rgba(0, 0, 0, .38), 0 0 18px rgba(58, 110, 255, .12);
+      backdrop-filter: blur(8px);
+    }
+    .terminal-head { height: 22px; display: flex; align-items: center; gap: 5px; padding: 0 9px; border-bottom: 1px solid rgba(115, 149, 206, .16); color: #8295b9; font: 8px/1 "DejaVu Sans Mono", Consolas, monospace; }
+    .tdot { width: 5px; height: 5px; border-radius: 50%; background: #ff668a; }
+    .tdot:nth-child(2) { background: #ffca69; }
+    .tdot:nth-child(3) { background: #48e0a2; }
+    .terminal-label { margin-left: 5px; }
+    .terminal-live { margin-left: auto; color: #70efb9; }
+    .terminal-body { padding: 9px 10px; color: #a9bce0; font: 8px/1.62 "DejaVu Sans Mono", Consolas, monospace; white-space: nowrap; }
+    .prompt { color: #53e2ff; }
+    .command { display: inline-block; overflow: hidden; width: 0; vertical-align: bottom; color: #eee9ff; animation: type 3.7s steps(29, end) infinite; }
+    .success { color: #61efb2; }
+    .muted { color: #60779f; }
+    .cursor { display: inline-block; width: 5px; height: 9px; margin-left: 2px; background: #64e6ff; vertical-align: -1px; animation: blink .78s steps(1) infinite; }
+    .corner { position: absolute; z-index: 5; right: 40px; top: 94px; color: rgba(138, 180, 255, .6); font: 8px/1.5 "DejaVu Sans Mono", Consolas, monospace; letter-spacing: 1px; writing-mode: vertical-rl; }
+    .footerline { position: absolute; bottom: 19px; left: 42px; width: 493px; height: 1px; background: linear-gradient(90deg, rgba(60, 218, 255, .62), rgba(139, 83, 255, .48), transparent); transform-origin: left; animation: line-glow 3.4s ease-in-out infinite; }
+    .footerline::after { content: ""; position: absolute; left: 0; top: -1px; width: 48px; height: 3px; border-radius: 3px; background: #69e8ff; filter: blur(2px); animation: line-run 3.4s ease-in-out infinite; }
+    @keyframes grid-drift { to { background-position: 0 38px, 38px 0; } }
+    @keyframes scan { 0% { transform: translateY(0); opacity: 0; } 12% { opacity: .85; } 88% { opacity: .7; } 100% { transform: translateY(410px); opacity: 0; } }
+    @keyframes pulse { 0%,100% { opacity: .56; transform: scale(.86); } 50% { opacity: 1; transform: scale(1.18); } }
+    @keyframes breathe { 0%,100% { transform: scale(.92); opacity: .72; } 50% { transform: scale(1.08); opacity: 1; } }
+    @keyframes orbit-a { to { transform: rotate(329deg); } }
+    @keyframes orbit-b { to { transform: rotate(402deg); } }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes core-pulse { 0%,100% { transform: scale(.94); filter: hue-rotate(0deg); } 50% { transform: scale(1.1); filter: hue-rotate(19deg); } }
+    @keyframes node-float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+    @keyframes type { 0%,10% { width: 0; } 60%,82% { width: 154px; } 100% { width: 0; } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes line-glow { 0%,100% { opacity: .52; } 50% { opacity: 1; } }
+    @keyframes line-run { 0% { left: 0; } 50% { left: 86%; } 100% { left: 0; } }
+  </style>
+  <style>
+    .grid { animation: none; }
+    .scan, .halo, .orbit.one, .orbit.two, .orbit.three, .core, .command, .footerline, .footerline::after { animation-duration: 4s; }
+    .live-dot, .node.n1, .node.n2, .node.n3 { animation-duration: 2s; }
+    .cursor { animation-duration: 1s; }
+  </style>
+</head>
+<body>
+  <main class="poster">
+    <div class="grid"></div>
+    <div class="scan"></div>
+    <header class="topline">
+      <div class="brand"><span class="brand-mark">◈</span><span>THESEIFDEV&nbsp; / &nbsp;PROFILE 01</span></div>
+      <div class="availability"><span class="live-dot"></span> OPEN TO REMOTE</div>
+    </header>
+    <section class="copy">
+      <div class="eyebrow">BUILDING SYSTEMS THAT SHIP</div>
+      <h1>SEIF AYMAN<br /><span class="surname">AHMED</span></h1>
+      <div class="role">SENIOR FULL-STACK DEVELOPER <span class="slash">//</span> ALEXANDRIA, EGYPT</div>
+      <p class="tagline">From data models and APIs to polished, production-ready experiences.</p>
+      <div class="chips"><span class="chip">PRODUCT ENGINEERING</span><span class="chip">AI &amp; RAG</span><span class="chip">IOT SYSTEMS</span></div>
+    </section>
+    <section class="visual" aria-hidden="true">
+      <div class="halo"></div>
+      <div class="orbit one"></div><div class="orbit two"></div><div class="orbit three"></div>
+      <div class="core"></div><div class="node n1"></div><div class="node n2"></div><div class="node n3"></div>
+      <div class="terminal">
+        <div class="terminal-head"><i class="tdot"></i><i class="tdot"></i><i class="tdot"></i><span class="terminal-label">seif@product-lab ~/build</span><span class="terminal-live">LIVE</span></div>
+        <div class="terminal-body">
+          <div><span class="prompt">$</span> <span class="command">ship --from-schema --to-screen</span><span class="cursor"></span></div>
+          <div><span class="success">✓</span> API contracts <span class="success">validated</span></div>
+          <div><span class="success">✓</span> product layers <span class="success">connected</span> <span class="muted">[web · AI · IoT]</span></div>
+        </div>
+      </div>
+    </section>
+    <div class="corner">DESIGN&nbsp; / &nbsp;ENGINEER&nbsp; / &nbsp;SHIP</div>
+    <div class="footerline"></div>
+  </main>
+</body>
+</html>

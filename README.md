@@ -1,181 +1,162 @@
 <div align="center">
 
-<a href="https://theseif.vercel.app/">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0B1020,45:172554,100:2563EB&text=Seif%20Ayman%20Ahmed&fontColor=FFFFFF&fontSize=56&fontAlignY=38&desc=Senior%20Full-Stack%20Software%20Developer&descAlignY=60&descSize=20&animation=fadeIn" alt="Seif Ayman Ahmed — Senior Full-Stack Software Developer" />
-</a>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=900&color=60A5FA&center=true&vCenter=true&width=820&height=45&lines=Building+production-ready+web+and+desktop+products;From+data+models+and+APIs+to+polished+interfaces;AI+%7C+RAG+%7C+IoT+%7C+Real-time+systems" alt="Animated tagline" />
+<img src="assets/profile-hero.gif" width="100%" alt="Animated neon terminal and reactor banner — Seif Ayman Ahmed, Senior Full-Stack Developer" />
 
 <br />
 
-<img src="https://img.shields.io/badge/5%2B-Years%20of%20Experience-2563EB?style=for-the-badge" alt="5 plus years of experience" />
-<img src="https://img.shields.io/badge/5-Production%20Platforms-7C3AED?style=for-the-badge" alt="Five production platforms" />
-<img src="https://img.shields.io/badge/Alexandria-Egypt-0F766E?style=for-the-badge" alt="Based in Alexandria, Egypt" />
+<a href="https://theseif.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-OPEN-101828?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+<a href="https://theseif.vercel.app/documents/seif-ayman-cv.pdf"><img src="https://img.shields.io/badge/RESUME-DOWNLOAD-2563EB?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download CV" /></a>
+<a href="mailto:seif.tanjiro@gmail.com"><img src="https://img.shields.io/badge/CONTACT-LET'S_TALK-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Seif" /></a>
 
 <br /><br />
 
-<a href="#about">About</a> ·
-<a href="#tech-stack">Tech Stack</a> ·
-<a href="#selected-work">Projects</a> ·
-<a href="#experience">Experience</a> ·
-<a href="#github-activity">GitHub Activity</a> ·
-<a href="#lets-connect">Contact</a>
-
-<br /><br />
-
-<a href="https://theseif.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit%20Site-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Visit portfolio" /></a>
-<a href="https://theseif.vercel.app/documents/seif-ayman-cv.pdf"><img src="https://img.shields.io/badge/CV-Download%20PDF-1D4ED8?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download CV" /></a>
-<a href="mailto:seif.tanjiro@gmail.com"><img src="https://img.shields.io/badge/Email-Let's%20talk-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Seif" /></a>
-
-<br /><br />
-
-<img src="https://komarev.com/ghpvc/?username=TheSeifDev&style=flat-square&color=2563EB&label=PROFILE%20VIEWS" alt="Profile views" />
+<a href="#the-short-version">ABOUT</a>　✦　<a href="#things-ive-built">PROJECTS</a>　✦　<a href="#my-toolkit">STACK</a>　✦　<a href="#experience">EXPERIENCE</a>　✦　<a href="#the-github-side-quest">GITHUB</a>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2563EB,100:7C3AED&height=3" width="100%" alt="Gradient divider" />
+---
 
-## About
+### `01 / THE SHORT VERSION`
 
-I'm **Seif Ayman Ahmed**, a Senior Full-Stack Software Developer based in Alexandria, Egypt. I build production-grade web, desktop, and AI products end to end—from database design and APIs to accessible interfaces and deployment. My work spans education, healthcare, analytics, RAG-powered assistants, and real-time IoT systems.
+## I build the whole thing.
 
-I bring **5+ years of experience** and have shipped **five production platforms**. I enjoy taking ownership of the whole system, shaping clean architecture, and helping teams deliver software that stays maintainable after launch. I'm open to remote roles and freelance work.
+I'm **Seif Ayman Ahmed**, a Senior Full-Stack Software Developer in Alexandria, Egypt. I take products from database schemas and APIs all the way to the interface and deployment—across **web, desktop, AI, and IoT**.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2563EB,100:7C3AED&height=2" width="100%" alt="Gradient divider" />
+**5+ years building**　/　**5 production platforms shipped**　/　**Open to remote & freelance work**
 
-## Tech Stack
+---
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,vite,nodejs,nestjs,express,laravel,fastapi,postgres,mysql,sqlite,mongodb,redis,prisma,supabase,firebase,docker,vercel,cloudflare,git,github,python,php,dart,cpp,figma,postman&perline=10&theme=dark" alt="Technologies: TypeScript, JavaScript, React, Next.js, Tailwind CSS, Node.js, NestJS, Express, Laravel, FastAPI, PostgreSQL, MySQL, SQLite, MongoDB, Redis, Prisma, Supabase, Firebase, Docker, Vercel, Cloudflare, Git, GitHub, Python, PHP, Dart, C++, Figma, and Postman" />
-</div>
+### `02 / THINGS I'VE BUILT`
 
-<details>
-<summary><strong>Explore the full toolkit</strong></summary>
-<br />
-
-- **Frontend:** HTML5, CSS3, JavaScript, TypeScript, React, Next.js, React Native, Bootstrap, Tailwind CSS, NativeWind, Vite, React Router.
-- **Backend & APIs:** Node.js, Express.js, NestJS, Laravel, PHP, FastAPI, REST API design.
-- **Databases & ORMs:** PostgreSQL, MySQL, SQLite, MongoDB, Redis, Prisma ORM, Drizzle ORM, Mongoose.
-- **Authentication & cloud:** NextAuth, Better Auth, Supabase Auth, Firebase Auth, Clerk, Auth0, JWT, OAuth 2.0, Bcrypt, Cloudflare, Supabase, Firebase, Cloudinary.
-- **State, forms & real time:** Redux Toolkit, Zustand, TanStack Query, React Hook Form, Zod, Socket.IO, WebSockets, Server-Sent Events, event-driven architecture.
-- **AI, IoT & desktop:** LLM integration, RAG systems, prompt engineering, conversational AI, MQTT, ESP32, sensor integration, Electron, local-first applications.
-- **Engineering & delivery:** System design, software and database architecture, clean architecture, SOLID, design patterns, Docker, CI/CD fundamentals, environment configuration.
-- **Languages & tools:** JavaScript, TypeScript, Python, PHP, Dart, C++, Postman, Figma, Adobe XD.
-
-</details>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2563EB,100:7C3AED&height=2" width="100%" alt="Gradient divider" />
-
-## Selected Work
-
-A selection of products across AI, healthcare, education, video analytics, and the web. Visit the [full portfolio](https://theseif.vercel.app/projects) for all six project entries and case studies.
+## Less talk. More shipped.
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://theseif.vercel.app/projects/trackup">TrackUp</a></h3>
-      <p>Video analytics for real viewing sessions, with provider-aware playback evidence, scoped team access, viewer and session breakdowns, and CSV export.</p>
-      <p><strong>Stack:</strong> Next.js · React · TypeScript · Supabase · PostgreSQL · Recharts · Base UI</p>
-      <p><a href="https://trakeup.vercel.app/">Live product</a> · <a href="https://github.com/TheSeifDev/traking">Repository</a></p>
+      <h3>◈ TrackUp</h3>
+      <p>Video analytics that tracks real viewing sessions, with scoped team access and provider-aware playback evidence. No guessing when a provider cannot supply a metric.</p>
+      <p><code>Next.js</code> <code>TypeScript</code> <code>Supabase</code> <code>PostgreSQL</code></p>
+      <p><a href="https://trakeup.vercel.app/">↗ Live</a>　<a href="https://github.com/TheSeifDev/traking">⌘ Repo</a>　<a href="https://theseif.vercel.app/projects/trackup">Case study</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://theseif.vercel.app/projects/rafiq">RAFIQ AI Assistant</a></h3>
-      <p>A local-first desktop assistant combining healthcare support and smart-home automation with modular RAG and real-time MQTT communication.</p>
-      <p><strong>Stack:</strong> Electron · React · TypeScript · Fastify · SQLite · MQTT · RAG</p>
-      <p><a href="https://phantomsio.vercel.app/rafiq">Live product</a> · <a href="https://github.com/TheSeifDev/rafiq-system">Repository</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://theseif.vercel.app/projects/it-sum">IT-SUM Platform</a></h3>
-      <p>A learning platform for IT students with content delivery, quizzes, academic management, and dashboards for students and administrators.</p>
-      <p><strong>Stack:</strong> Next.js · NestJS · PostgreSQL · Supabase · Prisma ORM</p>
-      <p><a href="https://it-sum-seven.vercel.app/">Live platform</a> · <a href="https://github.com/TheSeifDev/it-sum">Backend repository</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://theseif.vercel.app/projects/phantoms">PHANTOMS Platform</a></h3>
-      <p>The official PHANTOMS team platform, built with scalable frontend architecture and a reusable UI component system.</p>
-      <p><strong>Stack:</strong> Next.js · React · TypeScript · Tailwind CSS · Framer Motion</p>
-      <p><a href="https://phantomsio.vercel.app/">Live platform</a> · <a href="https://theseif.vercel.app/projects/phantoms">Case study</a></p>
+      <h3>◈ RAFIQ AI Assistant</h3>
+      <p>A local-first desktop companion for healthcare and smart-home tasks. Modular RAG meets real-time MQTT device communication.</p>
+      <p><code>Electron</code> <code>React</code> <code>Fastify</code> <code>SQLite</code> <code>MQTT</code></p>
+      <p><a href="https://phantomsio.vercel.app/rafiq">↗ Live</a>　<a href="https://github.com/TheSeifDev/rafiq-system">⌘ Repo</a>　<a href="https://theseif.vercel.app/projects/rafiq">Case study</a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://theseif.vercel.app/projects/nabd-masr">Nabd Masr</a></h3>
-      <p>A blood donation platform designed to connect donors with recipients through responsive experiences and secure APIs. The public preview is currently restricted.</p>
-      <p><strong>Stack:</strong> Next.js · React · Prisma ORM · MySQL</p>
-      <p><a href="https://theseif.vercel.app/projects/nabd-masr">Project case</a></p>
+      <h3>◈ IT-SUM</h3>
+      <p>A learning platform for IT students: course content, quizzes, academic management, and dashboards for students and admins.</p>
+      <p><code>Next.js</code> <code>NestJS</code> <code>PostgreSQL</code> <code>Prisma</code></p>
+      <p><a href="https://it-sum-seven.vercel.app/">↗ Live</a>　<a href="https://github.com/TheSeifDev/it-sum">⌘ API repo (Go / Gin)</a>　<a href="https://theseif.vercel.app/projects/it-sum">Case study</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://theseif.vercel.app/projects/personal-portfolio">Previous Portfolio</a></h3>
-      <p>An earlier portfolio focused on technical case studies, reusable UI architecture, SEO, and interactive web experiences.</p>
-      <p><strong>Stack:</strong> Next.js · React · TypeScript · Tailwind CSS · Framer Motion</p>
-      <p><a href="https://seifdev.vercel.app/">Previous live site</a> · <a href="https://theseif.vercel.app/projects/personal-portfolio">Case study</a></p>
+      <h3>◈ PHANTOMS Platform</h3>
+      <p>The official team platform, built around a scalable frontend and a reusable UI system.</p>
+      <p><code>Next.js</code> <code>React</code> <code>TypeScript</code> <code>Framer Motion</code></p>
+      <p><a href="https://phantomsio.vercel.app/">↗ Live</a>　<a href="https://theseif.vercel.app/projects/phantoms">Case study</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>◈ Nabd Masr</h3>
+      <p>A blood donation platform designed to connect donors with recipients. Public preview is currently restricted.</p>
+      <p><code>Next.js</code> <code>React</code> <code>Prisma</code> <code>MySQL</code></p>
+      <p><a href="https://theseif.vercel.app/projects/nabd-masr">Case study</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>◈ Personal Portfolio</h3>
+      <p>The previous portfolio: technical case studies, reusable UI architecture, SEO, and interactive experiences.</p>
+      <p><code>Next.js</code> <code>TypeScript</code> <code>Tailwind</code> <code>Framer Motion</code></p>
+      <p><a href="https://seifdev.vercel.app/">↗ Previous site</a>　<a href="https://theseif.vercel.app/projects/personal-portfolio">Case study</a></p>
     </td>
   </tr>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2563EB,100:7C3AED&height=2" width="100%" alt="Gradient divider" />
+<div align="center">
 
-## Experience
+**[SEE ALL SIX PROJECTS & CASE STUDIES →](https://theseif.vercel.app/projects)**
 
-### Lead Full Stack Software Developer & Technical Lead · PHANTOMS Technology Team
-**2025–Present · Alexandria, Egypt**
+</div>
 
-Architect and deliver production platforms across web, desktop, and IoT. Lead system architecture, API conventions, engineering standards, sprint planning, and technical reviews. Coordinate frontend, backend, AI, and IoT work, and mentor developers in code quality and system design.
+---
 
-### Vice Head IT Support · University IT Club
-**September 2026–Present · Alexandria, Egypt**
+### `03 / MY TOOLKIT`
 
-Lead technical support across software, networking, and hardware; deliver workshops on IT fundamentals and troubleshooting; and support infrastructure for club-wide initiatives and events.
+## One stack. Every layer.
 
-### Education
-**Bachelor of Technology in Information Technology** · Borg El Arab Technological University · **2025–Present**
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,nodejs,nestjs,express,laravel,fastapi,postgres,mysql,sqlite,mongodb,redis,prisma,supabase,firebase,electron,docker,cloudflare,vercel,git,github,python,php,figma&perline=9&theme=dark" alt="TypeScript, JavaScript, React, Next.js, Tailwind, Node.js, NestJS, Express, Laravel, FastAPI, PostgreSQL, MySQL, SQLite, MongoDB, Redis, Prisma, Supabase, Firebase, Electron, Docker, Cloudflare, Vercel, Git, GitHub, Python, PHP, Figma" />
+
+</div>
+
+<details>
+<summary><strong>More of the toolkit</strong></summary>
+<br />
+
+- **Frontend:** React Native, Bootstrap, NativeWind, Vite, React Router, Redux Toolkit, Zustand, TanStack Query, React Hook Form, Zod.
+- **Backend & data:** Node.js, Express, NestJS, Laravel, FastAPI, PostgreSQL, MySQL, SQLite, MongoDB, Redis, Prisma, Drizzle, Mongoose.
+- **Identity & cloud:** NextAuth, Better Auth, Supabase Auth, Firebase Auth, Clerk, Auth0, JWT, OAuth 2.0, Bcrypt, Cloudflare, Cloudinary.
+- **AI, realtime & devices:** LLM integration, RAG, prompt engineering, Socket.IO, WebSockets, SSE, MQTT, ESP32, sensor integration.
+- **Engineering:** System design, clean architecture, SOLID, design patterns, database design, Docker, CI/CD fundamentals.
+- **Also:** JavaScript, TypeScript, Python, PHP, Dart, C++, Postman, Figma, Adobe XD.
+
+</details>
+
+---
+
+### `04 / EXPERIENCE`
+
+## Lead from the architecture. Ship with the team.
+
+**Lead Full Stack Software Developer & Technical Lead** · [PHANTOMS Technology Team](https://phantomsio.vercel.app/) · `2025—Now`
+
+Architect and deliver production platforms across web, desktop, and IoT. Set API conventions and engineering standards; coordinate product work across frontend, backend, AI, and hardware; lead planning and reviews; mentor developers.
+
+**Vice Head IT Support** · University IT Club · `Sep 2026—Now`
+
+Lead software, networking, and hardware support; run IT fundamentals and troubleshooting workshops; support infrastructure for club events and initiatives.
+
+**B.Tech, Information Technology** · Borg El Arab Technological University · `2025—Now`
 
 <details>
 <summary><strong>Training & certifications</strong></summary>
 <br />
 
-- **Cisco Networking Academy:** Introduction to IoT, Introduction to Cybersecurity, Cybersecurity Essentials, and JavaScript Essentials 1.
-- **New Horizons:** Full-stack web development training, including HTML & CSS, JavaScript, Bootstrap, React, Tailwind CSS, MySQL, PHP, and Laravel.
+Cisco Networking Academy: IoT, Cybersecurity, Cybersecurity Essentials, JavaScript Essentials 1. **New Horizons:** Full-Stack Web Development.
 
 </details>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2563EB,100:7C3AED&height=2" width="100%" alt="Gradient divider" />
+---
 
-## GitHub Activity
+### `05 / THE GITHUB SIDE QUEST`
+
+## A little proof of life.
 
 <div align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=TheSeifDev&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub profile statistics" />
-  <img height="175" src="https://streak-stats.demolab.com?user=TheSeifDev&theme=tokyonight&hide_border=true&background=0D1117&ring=60A5FA&fire=7C3AED" alt="GitHub contribution streak" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=TheSeifDev&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" />
+  <img height="165" src="https://streak-stats.demolab.com?user=TheSeifDev&theme=tokyonight&hide_border=true&background=0D1117&ring=60A5FA&fire=BD7BFF" alt="GitHub streak" />
 </div>
 
 <div align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=TheSeifDev&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=60A5FA&line=7C3AED&point=FFFFFF" alt="GitHub contribution activity graph" />
+  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=TheSeifDev&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=62E8FF&line=9A6BFF&point=FFFFFF" alt="Contribution activity graph" />
 </div>
 
 <div align="center">
-  <img width="98%" src="https://raw.githubusercontent.com/TheSeifDev/TheSeifDev/output/github-contribution-grid-snake-dark.svg" alt="Animated contribution snake" />
+  <img width="96%" src="https://raw.githubusercontent.com/TheSeifDev/TheSeifDev/output/github-contribution-grid-snake-dark.svg" alt="Animated contribution snake generated by GitHub Actions" />
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2563EB,100:7C3AED&height=2" width="100%" alt="Gradient divider" />
-
-## Let's Connect
+---
 
 <div align="center">
 
-<a href="https://theseif.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-theseif.vercel.app-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-<a href="https://theseif.vercel.app/documents/seif-ayman-cv.pdf"><img src="https://img.shields.io/badge/Download-CV-1D4ED8?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download CV" /></a>
-<a href="mailto:seif.tanjiro@gmail.com"><img src="https://img.shields.io/badge/Email-seif.tanjiro%40gmail.com-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://github.com/TheSeifDev"><img src="https://img.shields.io/badge/GitHub-TheSeifDev-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-<a href="https://phantomsio.vercel.app/"><img src="https://img.shields.io/badge/PHANTOMS-Visit%20Team%20Platform-0F766E?style=for-the-badge&logo=vercel&logoColor=white" alt="PHANTOMS" /></a>
+### Got a good problem? Let's build the solution.
 
-<br /><br />
+**[PORTFOLIO](https://theseif.vercel.app/)**　✦　**[DOWNLOAD MY CV](https://theseif.vercel.app/documents/seif-ayman-cv.pdf)**　✦　**[EMAIL ME](mailto:seif.tanjiro@gmail.com)**
 
-**Open to remote opportunities and freelance projects.**
+`Alexandria, Egypt`　`Open to remote roles & freelance work`
 
-</div>
-
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:2563EB,100:0B1020&animation=fadeIn" alt="Decorative animated footer" />
 </div>
