@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://theseif.vercel.app/">
-  <img src="https://raw.githubusercontent.com/TheSeifDev/TheSeifDev/main/assets/profile-hero.gif" width="100%" alt="Seif Ayman — Japanese night-sky profile banner with animated light-blue highlights and a portrait from the portfolio" />
+  <img src="https://raw.githubusercontent.com/TheSeifDev/TheSeifDev/2c6ce590bce07d60a14ad1ac8cc979574b8052a7/assets/profile-hero.gif" width="100%" alt="Seif Ayman — animated light-blue portfolio banner with a Japanese night-sky background" />
 </a>
 
 <br />
@@ -12,7 +12,7 @@
 
 <br /><br />
 
-<a href="#about">私について · ABOUT</a>　✦　<a href="#selected-work">制作 · WORK</a>　✦　<a href="#one-stack-every-layer">技術 · STACK</a>　✦　<a href="#experience">経歴 · EXPERIENCE</a>　✦　<a href="#github-activity">ACTIVITY</a>
+<a href="#about">ABOUT</a>　✦　<a href="#selected-work">PROJECTS</a>　✦　<a href="#one-stack-every-layer">TECH STACK</a>　✦　<a href="#experience">EXPERIENCE</a>　✦　<a href="#github-activity">ACTIVITY</a>
 
 </div>
 
@@ -20,12 +20,9 @@
 
 ## About
 
-**01 / 自己紹介 — ME, IN A FEW LINES**
+**01 / ABOUT — ME, IN A FEW LINES**
 
 I'm **Seif Ayman Ahmed**, a Senior Full-Stack Software Developer based in Alexandria, Egypt. I build production web, desktop, and AI products end to end—from TypeScript interfaces and NestJS APIs to PostgreSQL data models and deployment.
-
-> テクノロジーで、より良い未来をつくる。<br />
-> *Building a better future through technology.*
 
 **5+ years** building products　·　**5 production platforms** shipped　·　Open to remote roles and freelance work
 
@@ -33,18 +30,18 @@ I'm **Seif Ayman Ahmed**, a Senior Full-Stack Software Developer based in Alexan
 
 ## Selected Work
 
-**02 / 作品 — SELECTED BUILDS**
+**02 / SELECTED BUILDS**
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>相棒 · RAFIQ AI Assistant</h3>
+      <h3>RAFIQ AI Assistant</h3>
       <p>A local-first desktop assistant for healthcare and smart-home use, with modular RAG and real-time MQTT.</p>
       <p><code>Electron</code> <code>React</code> <code>Fastify</code> <code>SQLite</code> <code>MQTT</code></p>
       <p><a href="https://phantomsio.vercel.app/rafiq">↗ Live</a>　<a href="https://github.com/TheSeifDev/rafiq-system">⌘ Source</a>　<a href="https://theseif.vercel.app/projects/rafiq">Case study</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>学び · IT-SUM</h3>
+      <h3>IT-SUM</h3>
       <p>A learning platform for IT students: course content, quizzes, academic management, and student/admin dashboards.</p>
       <p><code>Next.js</code> <code>NestJS</code> <code>PostgreSQL</code> <code>Supabase</code> <code>Prisma</code></p>
       <p><a href="https://it-sum-seven.vercel.app/">↗ Live</a>　<a href="https://github.com/TheSeifDev/it-sum">⌘ API · Go / Gin</a>　<a href="https://theseif.vercel.app/projects/it-sum">Case study</a></p>
@@ -52,13 +49,13 @@ I'm **Seif Ayman Ahmed**, a Senior Full-Stack Software Developer based in Alexan
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>幻影 · PHANTOMS Platform</h3>
+      <h3>PHANTOMS Platform</h3>
       <p>The official team platform, built with scalable frontend architecture and a reusable UI system.</p>
       <p><code>Next.js</code> <code>React</code> <code>TypeScript</code> <code>Framer Motion</code></p>
       <p><a href="https://phantomsio.vercel.app/">↗ Live</a>　<a href="https://theseif.vercel.app/projects/phantoms">Case study</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>記録 · TrackUp</h3>
+      <h3>TrackUp</h3>
       <p>Video analytics for real viewing sessions, provider-aware playback evidence, and secure team spaces.</p>
       <p><code>Next.js</code> <code>TypeScript</code> <code>Supabase</code> <code>PostgreSQL</code></p>
       <p><a href="https://trakeup.vercel.app/">↗ Live</a>　<a href="https://github.com/TheSeifDev/traking">⌘ Source</a>　<a href="https://theseif.vercel.app/projects/trackup">Case study</a></p>
@@ -66,13 +63,13 @@ I'm **Seif Ayman Ahmed**, a Senior Full-Stack Software Developer based in Alexan
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>鼓動 · Nabd Masr</h3>
+      <h3>Nabd Masr</h3>
       <p>A blood-donation platform connecting donors and recipients. Its public preview is currently restricted.</p>
       <p><code>Next.js</code> <code>React</code> <code>Prisma</code> <code>MySQL</code></p>
       <p><a href="https://theseif.vercel.app/projects/nabd-masr">Case study</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>作品 · Personal Portfolio</h3>
+      <h3>Personal Portfolio</h3>
       <p>The previous portfolio, with reusable UI architecture, technical case studies, and interactive experiences.</p>
       <p><code>Next.js</code> <code>TypeScript</code> <code>Tailwind CSS</code> <code>Framer Motion</code></p>
       <p><a href="https://seifdev.vercel.app/">↗ Previous site</a>　<a href="https://theseif.vercel.app/projects/personal-portfolio">Case study</a></p>
@@ -90,16 +87,16 @@ I'm **Seif Ayman Ahmed**, a Senior Full-Stack Software Developer based in Alexan
 
 ## One stack. Every layer.
 
-**03 / 技術 — TOOLKIT**
+**03 / TECH STACK**
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,nodejs,nestjs,express,laravel,fastapi,postgres,mysql,sqlite,mongodb,redis,prisma,supabase,firebase,electron,docker,cloudflare,vercel,git,github,python,php,figma&perline=9&theme=dark" alt="TypeScript, JavaScript, React, Next.js, Tailwind CSS, Node.js, NestJS, Express, Laravel, FastAPI, PostgreSQL, MySQL, SQLite, MongoDB, Redis, Prisma, Supabase, Firebase, Electron, Docker, Cloudflare, Vercel, Git, GitHub, Python, PHP, and Figma" />
+<img src="https://raw.githubusercontent.com/TheSeifDev/TheSeifDev/main/assets/tech-stack.png" width="498" alt="Technology icons in three rows: TypeScript, JavaScript, React, Next.js, Tailwind, Node.js, NestJS, Express, Laravel, FastAPI, PostgreSQL, MySQL, SQLite, MongoDB, Redis, Prisma, Supabase, Firebase, Electron, Docker, Cloudflare, Vercel, Git, GitHub, Python, PHP, Figma" />
 
 </div>
 
 <details>
-<summary><strong>More of the toolkit · 技術一覧</strong></summary>
+<summary><strong>More of the toolkit</strong></summary>
 <br />
 
 - **Frontend:** React Native, Bootstrap, NativeWind, Vite, React Router, Redux Toolkit, Zustand, TanStack Query, React Hook Form, Zod.
@@ -115,7 +112,7 @@ I'm **Seif Ayman Ahmed**, a Senior Full-Stack Software Developer based in Alexan
 
 ## Experience
 
-**04 / 経歴 — EXPERIENCE & EDUCATION**
+**04 / EXPERIENCE & EDUCATION**
 
 ### Lead Full Stack Software Developer & Technical Lead
 **PHANTOMS Technology Team · 2025—Present**
@@ -131,7 +128,7 @@ Lead software, networking, and hardware support; deliver IT fundamentals and tro
 **Borg El Arab Technological University · 2025—Present**
 
 <details>
-<summary><strong>Training & certifications · 研修</strong></summary>
+<summary><strong>Training & certifications</strong></summary>
 <br />
 
 **Cisco Networking Academy:** Internet of Things, Introduction to Cybersecurity, Cybersecurity Essentials, and JavaScript Essentials 1.<br />
@@ -143,7 +140,7 @@ Lead software, networking, and hardware support; deliver IT fundamentals and tro
 
 ## GitHub Activity
 
-**05 / 開発記録 — THE BUILD LOG**
+**05 / THE BUILD LOG**
 
 <div align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=TheSeifDev&show_icons=true&hide_border=true&bg_color=0B1422&title_color=8ECFFF&text_color=C7D5E5&icon_color=67B8FF&rank_icon=github" alt="GitHub profile statistics in light blue" />
@@ -158,11 +155,11 @@ Lead software, networking, and hardware support; deliver IT fundamentals and tro
 
 ## Connect
 
-**06 / 連絡 — LET'S BUILD SOMETHING THAT MATTERS**
+**06 / LET'S BUILD SOMETHING THAT MATTERS**
 
 <div align="center">
 
-<a href="https://theseif.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-見てみる-0B1524?style=for-the-badge&logo=vercel&logoColor=91CCFF" alt="Portfolio" /></a>
+<a href="https://theseif.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-Visit%20site-0B1524?style=for-the-badge&logo=vercel&logoColor=91CCFF" alt="Portfolio" /></a>
 <a href="https://theseif.vercel.app/documents/seif-ayman-cv.pdf"><img src="https://img.shields.io/badge/CV-Download-163A5C?style=for-the-badge&logo=adobeacrobatreader&logoColor=91CCFF" alt="CV" /></a>
 <a href="mailto:seif.tanjiro@gmail.com"><img src="https://img.shields.io/badge/EMAIL-Contact%20me-18334F?style=for-the-badge&logo=gmail&logoColor=91CCFF" alt="Email" /></a>
 <a href="https://github.com/TheSeifDev"><img src="https://img.shields.io/badge/GITHUB-TheSeifDev-101820?style=for-the-badge&logo=github&logoColor=91CCFF" alt="GitHub" /></a>
@@ -171,6 +168,6 @@ Lead software, networking, and hardware support; deliver IT fundamentals and tro
 
 **Alexandria, Egypt**　·　**Open to remote roles and freelance work**
 
-テクノロジーで、より良い未来をつくる。
+Building a better future through technology.
 
 </div>
