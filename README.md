@@ -91,7 +91,23 @@ I'm **Seif Ayman Ahmed**, a Senior Full-Stack Software Developer based in Alexan
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/TheSeifDev/TheSeifDev/aa2e79dd280aea7dbb8755351b591a3cf4d7531a/assets/tech-stack.png" width="498" alt="Technology icons in three rows: TypeScript, JavaScript, React, Next.js, Tailwind, Node.js, NestJS, Express, Laravel, FastAPI, PostgreSQL, MySQL, SQLite, MongoDB, Redis, Prisma, Supabase, Firebase, Electron, Docker, Cloudflare, Vercel, Git, GitHub, Python, PHP, Figma" />
+<p><strong>Languages &amp; Markup</strong><br />
+<img src="https://raw.githubusercontent.com/TheSeifDev/TheSeifDev/be2b7416319b3a937050d266c24e9ef138f8ad8b/assets/skills-languages.png" width="442" alt="TypeScript, JavaScript, Python, PHP, Dart, C++, HTML, and CSS icons" /></p>
+
+<p><strong>Frontend &amp; Mobile</strong><br />
+<img src="https://raw.githubusercontent.com/TheSeifDev/TheSeifDev/be2b7416319b3a937050d266c24e9ef138f8ad8b/assets/skills-frontend.png" width="330" alt="React, Next.js, Tailwind CSS, Bootstrap, Vite, and Redux icons" /></p>
+
+<p><strong>Backend &amp; APIs</strong><br />
+<img src="https://raw.githubusercontent.com/TheSeifDev/TheSeifDev/be2b7416319b3a937050d266c24e9ef138f8ad8b/assets/skills-backend.png" width="330" alt="Node.js, NestJS, Express, Laravel, FastAPI, and Go icons" /></p>
+
+<p><strong>Databases &amp; Identity</strong><br />
+<img src="https://raw.githubusercontent.com/TheSeifDev/TheSeifDev/be2b7416319b3a937050d266c24e9ef138f8ad8b/assets/skills-data.png" width="442" alt="PostgreSQL, MySQL, SQLite, MongoDB, Redis, Prisma, Supabase, and Firebase icons" /></p>
+
+<p><strong>Cloud, Desktop &amp; DevOps</strong><br />
+<img src="https://raw.githubusercontent.com/TheSeifDev/TheSeifDev/be2b7416319b3a937050d266c24e9ef138f8ad8b/assets/skills-platform.png" width="386" alt="Electron, Docker, Cloudflare, Vercel, Git, GitHub, and GitHub Actions icons" /></p>
+
+<p><strong>AI &amp; Developer Tools</strong><br />
+<img src="https://raw.githubusercontent.com/TheSeifDev/TheSeifDev/be2b7416319b3a937050d266c24e9ef138f8ad8b/assets/skills-tools-ai.png" width="217" alt="AI, Figma, Adobe XD, and Postman icons" /></p>
 
 </div>
 
@@ -99,12 +115,12 @@ I'm **Seif Ayman Ahmed**, a Senior Full-Stack Software Developer based in Alexan
 <summary><strong>More of the toolkit</strong></summary>
 <br />
 
-- **Frontend:** React Native, Bootstrap, NativeWind, Vite, React Router, Redux Toolkit, Zustand, TanStack Query, React Hook Form, Zod.
-- **Backend & data:** Node.js, Express, NestJS, Laravel, FastAPI, PostgreSQL, MySQL, SQLite, MongoDB, Redis, Prisma, Drizzle, Mongoose.
+- **Frontend & mobile:** React, React Native, Next.js, Tailwind CSS, NativeWind, Bootstrap, Vite, React Router, Redux Toolkit, Zustand, TanStack Query, React Hook Form, Zod.
+- **Backend & data:** Node.js, Express, NestJS, Laravel, FastAPI, Go / Gin, PostgreSQL, MySQL, SQLite, MongoDB, Redis, Prisma, Drizzle, Mongoose.
 - **Identity & cloud:** NextAuth, Better Auth, Supabase Auth, Firebase Auth, Clerk, Auth0, JWT, OAuth 2.0, Bcrypt, Cloudflare, Cloudinary.
 - **AI, real time & IoT:** LLM integration, RAG, prompt engineering, Socket.IO, WebSockets, SSE, MQTT, ESP32, sensor integration.
 - **Engineering:** System design, clean architecture, SOLID, design patterns, database design, Docker, CI/CD fundamentals.
-- **Languages & tools:** JavaScript, TypeScript, Python, PHP, Dart, C++, Postman, Figma, Adobe XD.
+- **Languages & tools:** HTML, CSS, JavaScript, TypeScript, Python, PHP, Dart, C++, Postman, Figma, Adobe XD, Git / GitHub, GitHub Actions.
 
 </details>
 
@@ -149,6 +165,15 @@ Lead software, networking, and hardware support; deliver IT fundamentals and tro
 
 <div align="center">
   <img width="97%" src="https://github-readme-activity-graph.vercel.app/graph?username=TheSeifDev&hide_border=true&bg_color=0B1422&color=C7DDF2&line=72BFFF&point=EAF6FF" alt="GitHub contribution graph in light blue" />
+</div>
+
+<div align="center">
+  <p><strong>Contribution Snake</strong></p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TheSeifDev/TheSeifDev/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TheSeifDev/TheSeifDev/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/TheSeifDev/TheSeifDev/output/github-contribution-grid-snake.svg" alt="Animated snake moving across Seif's GitHub contribution grid" />
+  </picture>
 </div>
 
 ---
