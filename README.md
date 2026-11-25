@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/profile-hero.gif" width="100%" alt="Animated neon terminal and reactor banner — Seif Ayman Ahmed, Senior Full-Stack Developer" />
+<img src="https://raw.githubusercontent.com/TheSeifDev/TheSeifDev/main/assets/profile-hero.gif" width="100%" alt="Animated neon terminal and reactor banner — Seif Ayman Ahmed, Senior Full-Stack Developer" />
 
 <br />
 
@@ -10,7 +10,7 @@
 
 <br /><br />
 
-<a href="#the-short-version">ABOUT</a>　✦　<a href="#things-ive-built">PROJECTS</a>　✦　<a href="#my-toolkit">STACK</a>　✦　<a href="#experience">EXPERIENCE</a>　✦　<a href="#the-github-side-quest">GITHUB</a>
+<a href="#i-build-the-whole-thing">ABOUT</a>　✦　<a href="#less-talk-more-shipped">PROJECTS</a>　✦　<a href="#one-stack-every-layer">STACK</a>　✦　<a href="#lead-from-the-architecture-ship-with-the-team">EXPERIENCE</a>　✦　<a href="#a-little-proof-of-life">GITHUB</a>
 
 </div>
 
